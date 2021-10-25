@@ -6,10 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "lint-staged":{
+    "*.js": ["standard"]
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "lint-staged": "^11.2.4",
     "standard": "^16.0.4"
   }
 }
