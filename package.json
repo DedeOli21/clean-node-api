@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest"
   },
+  "standard": {
+    "env": ["jest"]
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -13,5 +16,8 @@
     "jest": "^27.3.1",
     "lint-staged": "^11.2.4",
     "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
